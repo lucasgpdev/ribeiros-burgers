@@ -20,15 +20,15 @@ window.INGREDIENTS = [
     long: "Brioche assado todos os dias, com gergelim tostado e manteiga na medida.",
     image: "assets/images/burger/pao.jpg",
     fallback: "assets/images/burger/bun-top.svg",
-    y: 40, h: 190, explode: -330, delay: 0.0
+    y: 40,  h: 190, explode: -60, delay: 0.0
   },
   {
     id: "special-sauce", number: "02", name: "Molho da Casa",
     short: "Uma receita exclusiva que define nosso sabor.",
     long: "Defumado, levemente picante e cremoso. Receita guardada a sete chaves.",
     image: "assets/images/burger/molho da casa.jpg",
-    fallback: "assets/images/burger/molho da casa.jpg ",
-    y: 222, h: 44, explode: -255, delay: 0.05
+    fallback: "assets/images/burger/molho da casa.jpg",
+    y: 235, h: 44,  explode: -45, delay: 0.05
   },
   {
     id: "lettuce", number: "03", name: "Alface Americana",
@@ -36,7 +36,7 @@ window.INGREDIENTS = [
     long: "Folhas selecionadas, lavadas e geladas minutos antes de irem para a chapa.",
     image: "assets/images/burger/alface.jpg",
     fallback: "assets/images/burger/alface.jpg",
-    y: 250, h: 66, explode: -185, delay: 0.1
+    y: 268, h: 66,  explode: -30, delay: 0.1
   },
   {
     id: "tomato", number: "04", name: "Tomate Fresco",
@@ -44,7 +44,7 @@ window.INGREDIENTS = [
     long: "Maduro no ponto certo, em fatias grossas que trazem suculência e acidez.",
     image: "assets/images/burger/c.jpg",
     fallback: "assets/images/burger/c.jpg",
-    y: 302, h: 52, explode: -115, delay: 0.15
+    y: 326, h: 52,  explode: -18, delay: 0.15
   },
   {
     id: "cheddar", number: "05", name: "Cheddar",
@@ -52,7 +52,7 @@ window.INGREDIENTS = [
     long: "Cheddar curado que derrete devagar sobre a carne, em camadas generosas.",
     image: "assets/images/burger/molho02.jpg",
     fallback: "assets/images/burger/molho02.jpg",
-    y: 340, h: 56, explode: -50, delay: 0.2
+    y: 372, h: 56,  explode: -8,  delay: 0.2
   },
   {
     id: "beef-patty", number: "06", name: "Carne Bovina",
@@ -60,7 +60,7 @@ window.INGREDIENTS = [
     long: "180 g de blend de cortes nobres, moído na hora e selado na brasa.",
     image: "assets/images/burger/hambuger.jpg",
     fallback: "assets/images/burger/hambuger.jpg",
-    y: 380, h:  70, explode: 0, delay: 0.25
+    y: 400, h: 70,  explode: 0,   delay: 0.25
   },
   {
     id: "bacon", number: "07", name: "Bacon Crocante",
@@ -68,7 +68,7 @@ window.INGREDIENTS = [
     long: "Curado e defumado em casa, assado até ficar dourado e estalando.",
     image: "assets/images/burger/bacon.jpg",
     fallback: "assets/images/burger/bacon.jpg",
-    y: 436, h: 54, explode: 70, delay: 0.3
+    y: 462, h: 54,  explode: 8,   delay: 0.3
   },
   {
     id: "caramelized-onion", number: "08", name: "Cebola Caramelizada",
@@ -76,7 +76,7 @@ window.INGREDIENTS = [
     long: "Quarenta minutos em fogo baixo até virar um doce profundo e macio.",
     image: "assets/images/burger/cebollaa.jpg",
     fallback: "assets/images/burger/cebollaa.jpg",
-    y: 476, h: 50, explode: 140, delay: 0.35
+    y: 508, h: 50,  explode: 18,  delay: 0.35
   },
   {
     id: "bun-bottom", number: "09", name: "Pão Inferior",
@@ -84,6 +84,6 @@ window.INGREDIENTS = [
     long: "Mais firme, tostado na chapa para segurar tudo sem perder a maciez.",
     image: "assets/images/burger/paobaixo.jpg",
     fallback: "assets/images/burger/paobaixo.jpg",
-    y: 512, h: 90, explode: 215, delay: 0.4
+    y: 552, h: 90,  explode: 30,  delay: 0.4
   }
 ];
