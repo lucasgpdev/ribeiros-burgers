@@ -13,6 +13,8 @@
  */
 window.BURGER_BOX = { w: 600, h: 680 };
 
+window.BURGER_BOX = { w: 600, h: 680 };
+
 window.INGREDIENTS = [
   {
     id: "bun-top", number: "01", name: "Pão Brioche",
@@ -20,7 +22,7 @@ window.INGREDIENTS = [
     long: "Brioche assado todos os dias, com gergelim tostado e manteiga na medida.",
     image: "assets/images/burger/pao.jpg",
     fallback: "assets/images/burger/bun-top.svg",
-    y: 40,  h: 190, explode: -60, delay: 0.0
+    y: 40,  h: 190, explode: -30, delay: 0.0
   },
   {
     id: "special-sauce", number: "02", name: "Molho da Casa",
@@ -84,6 +86,6 @@ window.INGREDIENTS = [
     long: "Mais firme, tostado na chapa para segurar tudo sem perder a maciez.",
     image: "assets/images/burger/paobaixo.jpg",
     fallback: "assets/images/burger/paobaixo.jpg",
-    y: 552, h: 90,  explode: 30,  delay: 0.4
+    y: 552, h: 90,  explode: 15,  delay: 0.4
   }
 ];
